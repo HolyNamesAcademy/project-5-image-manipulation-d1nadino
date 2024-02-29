@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Image Manipulation Test",
+      "setup": "",
+      "run": "mvn test; mvn test | grep -zqv '\\[ERROR\\]'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 5,
+      "points": null
+    }
+  ]
+}
